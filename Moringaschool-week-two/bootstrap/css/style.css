@@ -1,0 +1,9 @@
+.container{
+    background-color: blue;
+    height: 50;
+}
+.container-fluid{
+    background-color: burlywood;
+    height: 70;
+    
+}

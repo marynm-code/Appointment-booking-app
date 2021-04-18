@@ -15,3 +15,59 @@ border-collapse: collapse;
 body{
     background-image: url(images/car.jpeg/);
 }
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgray;
+}
+section
+{
+display: flex;
+}
+nav{
+flex:1;
+background-color: darkslateblue;
+padding: 25;
+}
+nav ul{
+    list-style-type:none;
+    padding: 0;
+}
+article{
+    -ms-flex-align: 3;
+    background-color: deepskyblue;
+}
+footer{
+    background-color: firebrick;
+    text-align: center;
+    padding: 10;
+    color: floralwhite;
+}
+/*Adding navigation styling below*/
+.nav { 
+    text-align: center;
+}
+.nav ul{
+    display: inline-flex;
+    list-style: none;
+}
+.nav ul li{
+padding: a14px;
+margin: 15px;
+width: 150;
+}
+.nav ul li a{
+    text-decoration-style: none;
+    color: darkgrey;
+}
+.nav ul li a:hover{
+    color: (rgb39, 175, 39);
+}
